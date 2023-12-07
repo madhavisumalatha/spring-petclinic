@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    triggers { pollSCM('*/3 * * * *') }
     stages {
         stage('cloning spc code') {
             steps {
