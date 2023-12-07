@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('cloning spc code') {
             steps {
-                git branch: 'main', url: 'https://github.com/madhavisumalatha/spring-petclinic.git
+                git branch: 'main', url: 'https://github.com/madhavisumalatha/spring-petclinic.git'
 
 
             }
